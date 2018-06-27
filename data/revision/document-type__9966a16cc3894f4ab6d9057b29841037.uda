@@ -1,0 +1,64 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document-dashed-line",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/1d07565fd55e4af9b2e6e347768e19ca",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "47852dac-3650-4805-ba2f-d36f8379bbfa",
+      "Name": "Content",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "9d38ecd7-a9fe-41c7-94ad-5fd50fc46bef",
+          "Alias": "pageTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "The title of the page, this is also the first text in a google search result. The ideal length is between 40 and 60 characters",
+          "Mandatory": true,
+          "Name": "Page Title",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "f75a079b-6924-4348-bf80-f0bb231f4204",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/1cd1f7c5f2ed4aa2ac7cfb2ab363a743",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Content",
+          "SortOrder": 1,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/9966a16cc3894f4ab6d9057b29841037",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/1cd1f7c5f2ed4aa2ac7cfb2ab363a743",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/1d07565fd55e4af9b2e6e347768e19ca",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Content Base",
+  "Alias": "contentBase",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

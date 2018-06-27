@@ -1,0 +1,103 @@
+{
+  "DefaultTemplate": "umb://template/0164ed6ebd074684a20bf1b63bef749e",
+  "AllowedTemplates": [
+    "umb://template/0164ed6ebd074684a20bf1b63bef749e"
+  ],
+  "Icon": "icon-calendar",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/0a6f07146eb548c8aa1584c99d4ab2e2"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "a5a1a5b5-6dc6-46b3-bf4a-6a618d424f0c",
+      "Name": "Content",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "589a252a-c03e-4631-b137-95fb86febea3",
+          "Alias": "pageTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "The title of the page, this is also the first text in a google search result. The ideal length is between 40 and 60 characters",
+          "Mandatory": true,
+          "Name": "Page Title",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "61193b52-e296-4286-b009-b2bb4eb41323",
+          "Alias": "categories",
+          "DataType": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Categories (tags)",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "623abf3b-8fbf-4b40-a84c-310821c14bb3",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/1cd1f7c5f2ed4aa2ac7cfb2ab363a743",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Content",
+          "SortOrder": 3,
+          "Validation": null
+        },
+        {
+          "Key": "cafbd81b-51c7-4872-b712-aed5a9cf13ad",
+          "Alias": "excerpt",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "Introduction to your blog post. This is also used in the summaries on the front of the blog as well as the homepage",
+          "Mandatory": true,
+          "Name": "Excerpt",
+          "SortOrder": 2,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/b6cf4d0119214a20968c0eab683464ae",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/1cd1f7c5f2ed4aa2ac7cfb2ab363a743",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/0a6f07146eb548c8aa1584c99d4ab2e2",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/0164ed6ebd074684a20bf1b63bef749e",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Blogpost",
+  "Alias": "blogpost",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}
