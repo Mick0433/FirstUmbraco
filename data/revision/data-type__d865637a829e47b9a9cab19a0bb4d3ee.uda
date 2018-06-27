@@ -1,0 +1,18 @@
+{
+  "EditorAlias": "Umbraco.MultiNodeTreePicker2",
+  "DatabaseType": 0,
+  "PreValues": {
+    "filter": "product",
+    "maxNumber": "9",
+    "minNumber": "0",
+    "showOpenButton": "1",
+    "startNode": "{\r\n  \"type\": \"content\",\r\n  \"query\": \"$current\"\r\n}"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/d865637a829e47b9a9cab19a0bb4d3ee",
+  "Dependencies": [],
+  "Name": "Products - Featured Products - Multinode Treepicker",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.14"
+}
