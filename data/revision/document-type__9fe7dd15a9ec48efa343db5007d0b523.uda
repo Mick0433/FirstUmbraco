@@ -185,6 +185,16 @@
       "SortOrder": 1,
       "PropertyTypes": [
         {
+          "Key": "d0b6c2df-c082-4f3d-bcd1-f08f6d8a2ae2",
+          "Alias": "welcomeText",
+          "DataType": "umb://data-type/2f0ab132f9ae454db19b473d4c44b5be",
+          "Description": "Welcome to my first Umbraco site, feel free to look around!",
+          "Mandatory": false,
+          "Name": "Welcome Text",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
           "Key": "d50cfe12-01a2-4d9d-bba1-800e717bb93c",
           "Alias": "bodyText",
           "DataType": "umb://data-type/f4084ca6fc6c40c7ab0e64888d7d869c",
@@ -212,6 +222,11 @@
     },
     {
       "Udi": "umb://data-type/28e0c92d3547434699c48287d8a541b9",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2f0ab132f9ae454db19b473d4c44b5be",
       "Ordering": true,
       "Mode": 0
     },
